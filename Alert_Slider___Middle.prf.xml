@@ -1,0 +1,48 @@
+<TaskerData sr="" dvi="1" tv="4.9u4m">
+	<Profile sr="prof49" ve="2">
+		<cdate>1494191085075</cdate>
+		<clp>true</clp>
+		<edate>1494192629782</edate>
+		<id>49</id>
+		<mid0>48</mid0>
+		<nme>Alert Slider - Middle</nme>
+		<State sr="con0" ve="2">
+			<code>165</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%INTERRUPT</lhs>
+					<op>0</op>
+					<rhs>priority</rhs>
+				</Condition>
+			</ConditionList>
+		</State>
+	</Profile>
+	<Task sr="task48">
+		<cdate>1492660996448</cdate>
+		<edate>1494192458894</edate>
+		<id>48</id>
+		<nme>Slider Vibrate</nme>
+		<Action sr="act0" ve="7">
+			<code>304</code>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>305</code>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>307</code>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>310</code>
+			<Int sr="arg0" val="1"/>
+		</Action>
+	</Task>
+</TaskerData>
